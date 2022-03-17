@@ -1,0 +1,120 @@
+:root{
+  --primary-colour:rgb(255, 255, 255);
+  --secondary-colour:rgb(0, 0, 0);
+  --danger:red;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  box-sizing: border-box;
+  background-color: #b6eeff;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: var(--secondary-colour);
+  margin: 4px 4px;
+  padding: 3px 3px;
+}
+h2 {
+  color: rgb(175, 57, 57);
+}
+p {
+  width: 72%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: block;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #81b62b;
+}
+a:visited {
+  background-color: black;
+}
+a:active {
+  background-color: crimson;
+}
+nav {
+  position: sticky;
+  top: 0px;
+}
+ul {
+  background-color: #313825;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*OR  justify-content: space-evenly; */
+  /* OR justify-content: space-between; */
+}
+
+li {
+  list-style: none;
+  margin: 4px 10px;
+  padding: 5px 5px;
+}
+li:hover {
+  color: rgb(255, 255, 255);
+}
+li:visited {
+  color: #85d405;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  display: flex;
+  border: 2px solid rgb(104, 33, 33);
+  border-radius: 10px;
+  margin: 4px;
+  width: 33%;
+  padding: 9px;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 7px 0px black;
+}
+img {
+  width: 284px;
+  height: 222px;
+}
+
+.blackcolour {
+  background-color: #313825;
+  color: white;
+  padding: 7px;
+
+}
+.foot {
+  font-size: 18px;
+}
+
+button {
+  background-color: #85d405;
+  color: rgb(0, 0, 0);
+  padding: 5px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #81b62b;
+  color: rgb(56, 51, 51);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
